@@ -16,7 +16,7 @@ jobs:
       run: |
         make lint
     - name: Format code with Python black
-      run |
+      run: |
         make format
     - name: Test with pytest
       run |
